@@ -1,5 +1,12 @@
 # Trainning neural network with perceptron
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Dependencies](#dependencies)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Introduction
 This project is a simple implementation of a neural network with a single layer of perceptrons. The neural network is trained to recognize handwritten digits from the MNIST dataset.
 
@@ -12,6 +19,8 @@ This project is a simple implementation of a neural network with a single layer 
 - Jupyter
 
 ```bash
+conda create --name neural-network python=3.12
+conda activate neural-network
 conda install --file requirements.txt
 ```
 
@@ -19,6 +28,9 @@ conda install --file requirements.txt
 ```bash
 jupyter notebook
 ```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
