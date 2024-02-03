@@ -8,7 +8,7 @@
 - [License](#license)
 
 ## Introduction
-This project is a simple implementation of a neural network with a single layer of perceptrons. The neural network is trained to recognize handwritten digits from the MNIST dataset.
+This project is a simple implementation of a neural network with a single layer of perceptrons. The neural network is trained to prediction type of product based on its width and height. The dataset is generated with random values and the neural network is trained with the perceptron learning algorithm.
 
 ## Dependencies
 - Python 3.12
